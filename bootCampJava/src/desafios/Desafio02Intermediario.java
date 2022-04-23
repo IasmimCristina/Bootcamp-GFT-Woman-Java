@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Desafio04 {
+public class Desafio02Intermediario {
     public static void main(String[] args) {
 
 
