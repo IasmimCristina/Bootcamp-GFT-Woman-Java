@@ -1,10 +1,8 @@
 package bancoDigital;
 
-
-
 public class Main {
     public static void main(String[] args) {
-        //Criações de contas.
+        //Criações de contas e exemplos.
         Conta contac01 = new ContaCorrente();
         Conta contap01 = new ContaPoupanca();
         Conta contac02 = new ContaCorrente();

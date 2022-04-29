@@ -13,9 +13,11 @@ public abstract class Conta implements interfaceConta   {
         this.numero = ID++; //Cada conta terá im ID diferente e sequenial.
     }
     protected void extratoInformacoes() {
+        //O saldo é diferente para as duas contas por conta do bônus.
         System.out.println(String.format("Agência: %d",this.agencia));
         System.out.println(String.format("Número: %d",this.numero));
-        System.out.println(String.format("Saldo: %.2f",this.saldo));
+
+
     }
 
     @Override
@@ -27,6 +29,7 @@ public abstract class Conta implements interfaceConta   {
     @Override
     public void depositar(double valor) {
         this.saldo += valor;
+
 
     }
 
