@@ -1,10 +1,11 @@
 package bancoDigital;
 
 public class ContaCorrente extends Conta {
-    //A criação de uma conta corrente dá ao cliente 150 reais como bônus se der um valor inicial maior que 100.
-    private double bonus;
 
 
+    public ContaCorrente(Cliente clienteConta) {
+        super(clienteConta);
+    }
 
     @Override
     public void imprimirExtrato() {
@@ -16,9 +17,7 @@ public class ContaCorrente extends Conta {
 
 
     }
-    public double getBonus() {
-        return bonus;
-    }
+
 
 
 }
