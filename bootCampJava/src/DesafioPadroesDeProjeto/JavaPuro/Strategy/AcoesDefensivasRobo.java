@@ -1,4 +1,4 @@
-package DesafioPadroesDeProjeto.JavaPuro.Singleton.Strategy;
+package DesafioPadroesDeProjeto.JavaPuro.Strategy;
 
 public class AcoesDefensivasRobo implements AcoesRobo{
     @Override
